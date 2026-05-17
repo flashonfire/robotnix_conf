@@ -5,7 +5,8 @@
     extra-sandbox-paths = [ "/var/cache/ccache" ];
   };
 
-  inputs.robotnix.url = "/run/media/eymeric/stockage/c1s/robotnix";
+  # inputs.robotnix.url = "/run/media/eymeric/stockage/c1s/robotnix";
+  inputs.robotnix.url = "github:nix-community/robotnix";
 
   outputs = { self, robotnix }:
     {

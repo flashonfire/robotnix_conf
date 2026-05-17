@@ -133,14 +133,17 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1778870584,
-        "narHash": "sha256-/QHEfJwY2DHzgLohy0UsyGvoiwtOkJ7HeJ8HR/QfH04=",
-        "path": "/run/media/eymeric/stockage/c1s/robotnix",
-        "type": "path"
+        "lastModified": 1778704044,
+        "narHash": "sha256-gFZ0OzPAEyQEo+ZaQuG5Xv4Hf3qxQAIsoevqD3N7gp0=",
+        "owner": "nix-community",
+        "repo": "robotnix",
+        "rev": "7b7efa86cde5318d805fb8bd94a9f3afe0a9b050",
+        "type": "github"
       },
       "original": {
-        "path": "/run/media/eymeric/stockage/c1s/robotnix",
-        "type": "path"
+        "owner": "nix-community",
+        "repo": "robotnix",
+        "type": "github"
       }
     },
     "root": {
