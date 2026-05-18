@@ -11,7 +11,7 @@
   outputs = { self, robotnix }:
     {
       robotnixConfigurations."c1s" = robotnix.lib.robotnixSystem (
-        { config, pkgs, ... }:
+        { pkgs, ... }:
         {
           device = "c1s";
           flavor = "lineageos";
@@ -20,6 +20,9 @@
           apps.fdroid.enable = true;
           microg.enable = true;
           ccache.enable = true;
+
+          # apps.updater.enable = true;
+          # apps.updater.url = "";
 
           stateVersion = "3";
 
